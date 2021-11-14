@@ -2,7 +2,6 @@
  * Font Awesome Free 5.15.4 by @fontawesome - https://fontawesome.com
  * License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License)
  */
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:ital@1&display=swap");
 .fa,
 .fas,
 .far,
@@ -6488,36 +6487,9 @@ pre code {
 }
 
 body {
-  background-color: #b6d0e2;
+  background-color: #3d5a80;
 }
 
 * {
-  font-family: "Open Sans", sans-serif;
-}
-
-h1 {
-  font-family: "Roboto", sans-serif;
-  color: #b2beb5;
-  text-align: center;
-}
-
-.site-header {
-  display: flex;
-  justify-content: space-between;
-  background-color: #add8e6;
-}
-
-.main {
-  background-color: #4682b4;
-  padding-top: 1.5em;
-  margin-left: 5%;
-  margin-right: 5%;
-  padding-left: 2em;
-  padding-right: 2em;
-  margin-bottom: 1.5em;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
+  color: #000;
 }

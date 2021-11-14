@@ -1,0 +1,47 @@
+@import '../../shared/fontawesome/scss/fontawesome';
+$fa-font-path: '../../shared/fontawesome/webfonts';
+@import '../../shared/fontawesome/scss/brands';
+@import '../../shared/fontawesome/scss/solid';
+@import '../../shared/fontawesome/scss/regular';
+
+@import '../../node_modules/normalize.css/normalize';
+@import 'variables';
+@import 'blockquotes';
+@import 'code';
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:ital@1&display=swap');
+
+body {
+    background-color: $background-color;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: $font-alternative-color;
+    text-align: center;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: $background-alternative;
+}
+
+.main {
+    background-color: $background-alternative-color;
+    padding-top: 1.5em;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 2em;
+    padding-right: 2em;
+    margin-bottom: 1.5em;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
