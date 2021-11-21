@@ -1,0 +1,13 @@
+.container {
+    display: grid;
+    gap: 1em 1em;
+}
+
+.container h1 {
+    grid-column: span 3;
+    justify-self: center;
+}
+
+.kmom-box.project {
+    display: grid;
+}

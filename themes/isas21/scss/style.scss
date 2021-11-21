@@ -8,6 +8,8 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import 'variables';
 @import 'blockquotes';
 @import 'code';
+@import 'technologies';
+@import 'report';
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:ital@1&display=swap');
 
@@ -29,6 +31,12 @@ h1 {
     display: flex;
     justify-content: space-between;
     background-color: $background-alternative;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.nav {
+    padding-right: 5%;
 }
 
 .main {
@@ -44,4 +52,30 @@ h1 {
 img {
     max-width: 100%;
     height: auto;
+}
+
+@media screen and (max-width: 767px) {
+    .body {
+        width: 100%;
+    }
+
+    .site-header {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .nav {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .main {
+        width: 100%;
+        margin: auto;
+    }
+
+    .footer {
+        width: 90%;
+        text-align: center;
+    }
 }
