@@ -6665,9 +6665,10 @@ h1 {
 .site-header {
   display: flex;
   justify-content: space-between;
-  background-color: #b0d1d9;
+  background-color: #202945;
   padding-left: 10%;
   padding-right: 10%;
+  color: #8ab5bf;
 }
 
 .nav {
@@ -6675,7 +6676,7 @@ h1 {
 }
 
 .main {
-  background-color: #03588c;
+  background-color: #024873;
   padding-top: 1.5em;
   margin-left: 5%;
   margin-right: 5%;

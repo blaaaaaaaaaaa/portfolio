@@ -4,12 +4,11 @@
     {% include 'incl/nav.twig' %}
 
     <div class="main" role="main">
-        <h1>Egen layout från report.twig</h1>
-        <div class="sidebar-meny">
-            {{ content }}
-        </div>
-        <div class="container">
-            {{ content }}
+        <div class="grid wrapper">
+            <h1 class="grid-header">Analyser</h1>
+            <div class="article">
+                {{ content }}
+            </div>
         </div>
     </div>
 

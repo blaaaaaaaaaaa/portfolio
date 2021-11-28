@@ -18,6 +18,8 @@
     grid-column: span 3;
     justify-content: center;
     font-size: medium;
+    margin-bottom: 2em;
+    padding-bottom: 2em;
 }
 
 .grid-body {
@@ -77,7 +79,7 @@
     .wrapper {
         width: 80%;
         display: block;
-        overflow: auto;
+        overflow-x: hidden;
     }
 
     .grid {

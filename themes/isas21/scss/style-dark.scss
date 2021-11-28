@@ -14,7 +14,7 @@ $fa-font-path: '../../shared/fontawesome/webfonts';
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Roboto:ital@1&display=swap');
 
 body {
-    background-color: $background-color;
+    background-color: $background-color-dark-theme;
     overflow-x: hidden;
 }
 
@@ -31,9 +31,10 @@ h1 {
 .site-header {
     display: flex;
     justify-content: space-between;
-    background-color: $background-alternative;
+    background-color: $background-alternative-dark-theme;
     padding-left: 10%;
     padding-right: 10%;
+    color: $font-alternative-dark-theme;
 }
 
 .nav {
@@ -41,7 +42,7 @@ h1 {
 }
 
 .main {
-    background-color: $background-alternative-color;
+    background-color: $background-alternative-color-dark-theme;
     padding-top: 1.5em;
     margin-left: 5%;
     margin-right: 5%;

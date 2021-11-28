@@ -8,9 +8,15 @@
   },
   "scripts": {
     "lint": "stylelint \"**/*.scss\"",
-    "style": "sass isas21/scss/style.scss isas21/css/style.css --no-source-map",
-    "style-min": "sass isas21/scss/style.scss isas21/css/style.min.css --no-source-map --style compressed",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "watch": "sass isas21/scss/style.scss:isas21/css/style.css isas21/scss/style-dark.scss:isas21/css/style-dark.css --no-source-map --watch",
+    "watch-min": "sass isas21/scss/style.scss:isas21/css/style.min.css isas21/scss/style-dark.scss:isas21/css/style-dark.min.css --no-source-map --watch --style compressed",
+    "style": "npm run style-light && npm run style-dark",
+    "style-min": "npm run style-light-min && npm run style-dark-min",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "style-dark": "sass isas21/scss/style-dark.scss isas21/css/style-dark.css --no-source-map",
+    "style-dark-min": "sass isas21/scss/style-dark.scss isas21/css/style-dark.min.css --no-source-map --style compressed",
+    "style-light": "sass isas21/scss/style.scss isas21/css/style.css --no-source-map",
+    "style-light-min": "sass isas21/scss/style.scss isas21/css/style.min.css --no-source-map --style compressed"
   },
   "keywords": [],
   "author": "",
