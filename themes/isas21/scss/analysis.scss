@@ -17,13 +17,18 @@
 
 .link {
     text-align: center;
-    color: #000;
+    color: $font-alternative-color;
     font-weight: bolder;
     padding: 1em;
+    background-color: $background-alternative;
 }
 
-.link:hover {
-    background-color: $font-alternative-color;
+.link a {
+    display: inline-block;
+}
+
+.analys {
+    color: $font-color;
 }
 
 .tabell {

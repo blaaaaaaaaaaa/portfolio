@@ -22,6 +22,10 @@
     padding-bottom: 2em;
 }
 
+pre {
+    color: $font-alternative-color;
+}
+
 .grid-body {
     width: 90%;
     grid-column: span 3;
@@ -68,6 +72,7 @@
     border-radius: 1px;
     font-family: verdana;
     font-size: medium;
+    color: $font-color2;
 }
 
 .link-side:hover {

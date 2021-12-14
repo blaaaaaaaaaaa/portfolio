@@ -159,15 +159,15 @@ Referenser
 
 Beaird, J. & George, J. (2014) The Principles of Beautiful Web Design. SitePoint Pty Ltd.
 
-https://glimja.com/
-https://www.djurensratt.se/
-https://www.holistic.se/
+<div class="analys">https://glimja.com/</div>
+<div class="analys">https://www.djurensratt.se/</div>
+<div class="analys">https://www.holistic.se/</div>
 
-https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF
+<div class="analys">https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF</div>
 
-https://color.adobe.com/create/color-wheel
+<div class="analys">https://color.adobe.com/create/color-wheel</div>
 
-https://www.nngroup.com/articles/characteristics-minimalism/
+<div class="analys">https://www.nngroup.com/articles/characteristics-minimalism/</div>
 
 Övrigt
 -----------------------

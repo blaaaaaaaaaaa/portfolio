@@ -47,7 +47,7 @@ HOLISTIC:
 Samma förslag på förbättringar finns för holistic, att man sätter en mer lämplig storlek på bilderna, reducerar en tid det tar för servern att svara samt ta bort js-kod som inte används.
 
 RÅDATA:
-<iframe class="tabell" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vROm90H3iHw_SVMsmnxPmwYUHnHhXkKHXn5vrjcVu2E_Z6048Y4HsBaWC25Jg8l9rHazAGv3xz_hu4A/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
+<iframe title="data" class="tabell" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vROm90H3iHw_SVMsmnxPmwYUHnHhXkKHXn5vrjcVu2E_Z6048Y4HsBaWC25Jg8l9rHazAGv3xz_hu4A/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false"></iframe>
 
 Analys
 -----------------------
